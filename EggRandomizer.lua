@@ -22,7 +22,7 @@ local petTable = {
     ["Paradise Egg"] = { "Ostrich", "Peacock", "Capybara" },
     ["Dinosaurs Egg"] = { "Raptor", "Triceratops", "Stegosaurus" },
     ["Primal Egg"] = { "Parasaurolophus", "Iguanodon", "Pachycephalosaurus" },
-    ["Zen Egg"] = { "Shiba Inu", "Nihonzaru", "Tanuki", "Tanchozuru", "Kappa", " Kitsune" },
+    ["Zen Egg"] = { "Shiba Inu", "Nihonzaru", "Tanuki", "Tanchozuru", "Kappa", },
 }
 
 local espEnabled = true
@@ -301,7 +301,7 @@ local credit = Instance.new("TextLabel", frame)
 credit.Size = UDim2.new(1, 0, 0, 20)
 credit.Position = UDim2.new(0, 0, 0, 22)
 credit.BackgroundTransparency = 1
-credit.Text = "Made by - Zenkiii"
+credit.Text = "Made by - Greggy"
 credit.Font = Enum.Font.FredokaOne
 credit.TextSize = 14
 credit.TextColor3 = Color3.fromRGB(200, 200, 200)
